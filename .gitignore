@@ -1,0 +1,31 @@
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Codex local/private configuration
+.codex/
+config.toml
+*.bak
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+temp/
+tmp/
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
